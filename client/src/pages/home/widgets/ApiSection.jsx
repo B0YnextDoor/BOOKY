@@ -48,8 +48,8 @@ export const ApiSection = () => {
       {poem?.title && (
         <div>
           <h2>{poem.title}</h2>
-          <h3>Author: {poem.author}</h3>
           <pre>{poem?.lines && poem.lines.join("\n")}</pre>
+          <h3 style={{ textAlign: "end" }}>{poem.author}</h3>
         </div>
       )}
     </div>

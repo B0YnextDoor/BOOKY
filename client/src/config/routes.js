@@ -5,8 +5,6 @@ class Routes {
   ORDER = this.ORDERS.slice(0, -1);
   CATALOG = `${this.HOME}books`;
   BOOK_FORM = this.CATALOG.slice(0, -1);
-  AUTHOR = `${this.HOME}author`;
-  GENRE = `${this.HOME}genre`;
   CART = `${this.HOME}cart`;
   ABOUT = `${this.HOME}about`;
   REVIEWS = `${this.HOME}reviews`;

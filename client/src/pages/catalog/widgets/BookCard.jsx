@@ -25,7 +25,10 @@ export const BookCard = ({ book, role }) => {
   return (
     <div className="card-wrapper" ref={cardWrapperRef}>
       <div className="book_card" ref={cardRef}>
-        <Link to={role ? `${PAGES.CATALOG}/${book._id}` : ""}>
+        <Link
+          to={role ? `${PAGES.CATALOG}/${book._id}` : ""}
+          style={!role ? { cursor: "default" } : {}}
+        >
           {book.title}
         </Link>
         <p>

@@ -24,8 +24,8 @@ export const Home = () => {
       </section>
       <section className={styles.content_section}>
         <div className={styles.content}>
-          <ApiSection />
           <LatestNews />
+          <ApiSection />
         </div>
         <aside>
           <Banner />
